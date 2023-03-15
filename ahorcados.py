@@ -11,7 +11,7 @@ print()
 time.sleep(0.5)
 
 # set of words to guess from
-wordList = ["geekflare", "awesome", "python", "magic"]
+wordList = ["javascript", "css", "python", "html"]
 word = random.choice(wordList)
 
 guesses = ''
