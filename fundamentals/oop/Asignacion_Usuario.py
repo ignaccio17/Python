@@ -5,7 +5,7 @@ class Usuario:
         self.balance_cuenta = balance_cuenta
 
     def hacer_deposito(self, amount):
-        self.balance_cuenta += amount
+        self.balance_cuenta += amount 
 
     def hacer_giro(self, amount):
         self.balance_cuenta -= amount
